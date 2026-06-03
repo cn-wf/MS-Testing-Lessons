@@ -58,7 +58,7 @@ Beispielsoftware: Market Mate *[(*https://grocerymate.masterschool.com/](https:/
 5. **Anwendungsfalltest**:
     - **Testfall**: Überprüfen, ob die Altersanfrage beim öffnen der Kategorie “Alkohol” auftritt oder beim betreten des Shops
         - **Eingabe**: Navigation zum Shopreiter. Navigation zur Kategorie “Alcohol”.
-        - **Erwartetes Ergebnis**: Altersverifikation tritt bei der Navigation zur Kategorie “Alcohol” auf.
+        - **Erwartetes Ergebnis**: Altersverifikation tritt nur bei der ersten Navigation zur Shopseite auf.
 6. **Anwendungsfalltest**:
     - **Testfall**: Überprüfen, dass die Kategorien außer “Alkohol” immer sichtbar sind.
         - **Eingabe**: Registrierung als Minderjähriger. Navigation zu “Fish”
