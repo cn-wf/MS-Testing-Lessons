@@ -48,12 +48,12 @@ Beispielsoftware: Market Mate *[(*https://grocerymate.masterschool.com/](https:/
         - **Eingabe**: Alter = Heute - 17 Jahre
         - **Erwartetes Ergebnis**: “Alcohol” Kategorie kann nicht eingesehen werden.
 3. Grenzwertanalyse:
-    - **Testfall**: Überprüfen einer Alterseingabe von über 18 Jahren.
+    - **Testfall**: Überprüfen einer Alterseingabe von genau 18 Jahren.
         - **Eingabe**: Alter = Heute - 18 Jahre
         - **Erwartetes Ergebnis**: “Alcohol” Kategorie kann eingesehen werden.
 4. Grenzwertanalyse::
     - **Testfall**: Überprüfen einer Alterseingabe von über 18 Jahren.
-        - **Eingabe**: Alter = Heute - 18 Jahre
+        - **Eingabe**: Alter = Heute - 19 Jahre
         - **Erwartetes Ergebnis**: “Alcohol” Kategorie kann eingesehen werden.
 5. **Anwendungsfalltest**:
     - **Testfall**: Überprüfen, ob die Altersanfrage beim öffnen der Kategorie “Alkohol” auftritt oder beim betreten des Shops
