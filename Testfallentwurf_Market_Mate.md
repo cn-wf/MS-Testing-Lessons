@@ -78,7 +78,7 @@ Beispielsoftware: Market Mate *[(*https://grocerymate.masterschool.com/](https:/
         - **Erwartetes Ergebnis**: Versandkosten sind 0 Euro.
 2. **Grenzwertanalyse**:
     - **Testfall**: Überprüfen der Versandkosten bei mehr als 20 Euro Warenwert.
-        - **Eingabe**: Warenkorb mit Waren im Wert von 25 Euro füllen.
+        - **Eingabe**: Warenkorb mit Waren im Wert von 22 Euro füllen.
         - **Erwartetes Ergebnis**: Versandkosten sind 0 Euro.
 3. **Grenzwertanalyse**:
     - **Testfall**: Überprüfen der Versandkosten bei weniger als 20 Euro Warenwert.
