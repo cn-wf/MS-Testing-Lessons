@@ -86,9 +86,9 @@ Beispielsoftware: Market Mate *[(*https://grocerymate.masterschool.com/](https:/
         - **Erwartetes Ergebnis**: Versandkosten sind 5 Euro.
 4. **Anwendungsfalltest**:
     - **Testfall**: Überprüfen der Versandkosten nachdem ein Warenwert von 20 Euro erreicht wurde und anschließend Waren entfernt werden und ein Wert von 20 Euro unterschritten wird.
-        - **Eingabe**: Warenkorb mit Waren im Wert von 25 Euro füllen. Anschließend Waren im Wert von 10 Euro entfernen.
+        - **Eingabe**: Warenkorb mit Waren im Wert von 20 Euro füllen. Anschließend Waren im Wert von 2 Euro entfernen.
         - **Erwartetes Ergebnis**: Sobald ein Warenwert von 20 Euro unterschritten wird, werden die Versandkosten wieder hinzugefügt.
 5. **Anwendungsfalltest**:
     - **Testfall**: Überprüfen der Versandkosten nachdem der Warenkorb befüllt und wieder entleert wurde.
-        - **Eingabe**: Warenkorb mit Waren im Wert von 25 Euro füllen. Anschließend alle Waren entfernen. Einen neuen Artikel im Wert von 2 Euro in den Warenkorb legen.
+        - **Eingabe**: Warenkorb mit Waren im Wert von 22 Euro füllen. Anschließend alle Waren entfernen. Einen neuen Artikel im Wert von 2 Euro in den Warenkorb legen.
         - **Erwartetes Ergebnis**: 5 Euro Versandkosten werden hinzugefügt.
